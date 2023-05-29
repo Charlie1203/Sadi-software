@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap");
+/* Bold */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400&display=swap");
+/* Oswald */
+
+.loginCont {
+	height: 100vh;
+	background-color: #18476d;
+	background-size: 100%;
+}
+
+.caja {
+	background: rgba(110, 175, 221, 0.678);
+	border-radius: 20px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+@media screen and (max-width: 600px) {
+	.caja {
+		background: rgba(110, 175, 221, 0.678);
+		border-radius: 20px;
+		height: 100%;
+		margin-top: 2.5em;
+		margin-bottom: 2.5em;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.loginCont {
+		height: 100%;
+	}
+	.caja {
+		height: 100vh;
+	}
+}
+
+.font {
+	font-family: "Fira Sans", sans-serif;
+}
+
+.input {
+	height: 3rem;
+	border-radius: 5px;
+	background: #dee6e9;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border: none;
+	font-family: "Fira Sans", sans-serif;
+	position: relative;
+}
+
+.loginBtn {
+	background: #ed2025;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	border: none;
+	height: 3rem;
+	color: white;
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 600;
+}
+
+.loginBtn:hover {
+	background: #c72022;
+	transition: 0.5s;
+}
+
+.fpass {
+	font-family: "Fira Sans", sans-serif;
+	color: #414546;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.eye {
+	position: absolute;
+	margin-top: 1.38em;
+	padding-left: 0.5em;
+	cursor: pointer;
+}
+
+.resModal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.562);
+}
+
+.modalBox {
+	background: rgb(110, 175, 221);
+	width: 35em;
+	margin: 15% auto;
+	padding: 50px;
+	border-radius: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media screen and (max-width: 930px) {
+	.modalBox {
+		width: 80%;
+		margin-top: 15em;
+	}
+}
+
+.modalBox input {
+	font-family: "Fira Sans", sans-serif;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	border: none;
+}
+
+#infomssg {
+	padding-bottom: 5%;
+}
+
+.resetPass {
+	width: 75%;
+}
+
+@media screen and (max-width: 700px) {
+	.resetPass {
+		width: 100%;
+	}
+}
