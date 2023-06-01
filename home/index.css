@@ -124,8 +124,38 @@
 	margin-left: 1em;
 }
 
+#mobile {
+	display: none;
+}
+
 @media screen and (max-width: 990px) {
 	.navbarCol {
 		display: none;
+	}
+	#desktop {
+		display: none;
+	}
+	#mobile {
+		display: block;
+	}
+	.nameDiv {
+		right: 0;
+		margin-left: 0;
+	}
+	.textTitle {
+		font-size: 20px;
+		position: relative;
+		top: -0.5em;
+	}
+	.btnCont {
+		display: flex;
+	}
+
+	.btnFiltro {
+		width: 6em;
+	}
+	.btnFiltro img {
+		right: 0;
+		height: 0.5em;
 	}
 }
